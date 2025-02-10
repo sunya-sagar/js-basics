@@ -1,11 +1,11 @@
 // callback hell
 
-function getUser(id, callback) {
-	setTimeout(() => {
-		console.log("Fetching user data for id", id);
-		callback(null, { id: id, name: "John Doe" });
-	}, 1000);
-}
+// function getUser(id, callback) {
+// 	setTimeout(() => {
+// 		console.log("Fetching user data for id", id);
+// 		callback(null, { id: id, name: "John Doe" });
+// 	}, 1000);
+// }
 
 function getUsersPosts(userId, callback) {
 	setTimeout(() => {
