@@ -27,7 +27,7 @@ function getComments(postId, callback) {
 	}, 1000);
 }
 
-// // Simulating a sequence of asynchronous operations using callbacks
+// Simulating a sequence of asynchronous operations using callbacks
 getUser(1,function(err,user){
     if(err){
         console.log('Error fetching User',err)
